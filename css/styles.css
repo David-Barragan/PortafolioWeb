@@ -1,0 +1,105 @@
+/* Aspectos Generales */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+
+:root{
+    /* Color */
+    --background-color:#001526; 
+    --color-2:#27005D;
+    --color-3:#D7A013;
+    --color-4:#DB00FF;
+    --color-5:#979797;
+    --color-6:#000000;
+    --color-7:#FFFFFF;
+}
+
+
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'DM Serif Text', sans-serif;
+}
+
+
+/* Cabecera */
+header{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: #001526;
+    background-size: cover;
+}
+
+.bg-portafolio{
+    background-color: transparent;
+    background: #000000;
+}
+
+.bg-portafolio .nav-link,
+.bg-portafolio .navbar-brand{
+    color: #FFFFFF;
+}
+
+header #hero{
+    text-align: center;
+    padding: 8% 0;
+}
+
+#hero h2{
+color: #979797;
+}
+
+#hero h1{
+    color: #D7A013;
+    font-size: 80px;
+}
+
+#hero a{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+  cursor: pointer;
+}
+#hero a img{
+    width: 100%;
+    height: auto;
+}
+
+#hero a img:hover{
+    transform: scale(1.1);
+}
+
+#hero .right{
+    text-align: left;
+    border: solid #FFFFFF 1px;
+    padding: 40px;
+    color: #FFFFFF;
+}
+/* SOBRE MI */
+
+header.sobre-mi{
+    background-color: #D7A013;
+}
+
+#estudios{
+    width: 100%;
+    padding: 120px 0;
+
+}
+
+#estudios{
+    font-size: 50px;
+    margin-bottom: 120px;
+
+    
+}
+
+#estudios {
+    Color: #001526;
+
+    
+}
+
+
